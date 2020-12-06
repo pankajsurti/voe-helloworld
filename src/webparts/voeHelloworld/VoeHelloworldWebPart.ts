@@ -21,7 +21,7 @@ export default class VoeHelloworldWebPart extends BaseClientSideWebPart<IVoeHell
         <div class="${ styles.container }">
           <div class="${ styles.row }">
             <div class="${ styles.column }">
-              <span class="${ styles.title }">Welcome to SharePoint!</span>
+              <span class="${ styles.title }">Welcome to SharePoint! VOE Demo 12/06/2020</span>
               <p class="${ styles.subTitle }">Customize SharePoint experiences using Web Parts.</p>
               <p class="${ styles.description }">${escape(this.properties.description)}</p>
               <a href="https://aka.ms/spfx" class="${ styles.button }">
